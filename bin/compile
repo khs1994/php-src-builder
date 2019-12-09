@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+set -x
 # Function currently not used, kept around in case we need to fetch a specific version due
 # to an upstream packaging issues.
 function fetch_pear() {
